@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
+
 def read_input() -> list[str]:
     lines = [input() for _ in range(1)]
     return lines
 
 def main():
     # read input
-    lines = read_input()
+    [weight] = read_input()
   
   
 
-    print(lines)
+    print('NO' if int(weight) % 2 else 'YES')
 
 
 if __name__ == '__main__':
