@@ -11,8 +11,8 @@ int main() {
         cin >> x , y, z;
 
         //do solution here
-        
-        cout << colors << endl;
+
+        cout << x << y << z << endl;
     }
 
     return 0;
