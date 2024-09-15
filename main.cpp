@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; // do not do this in normal development, bad practice
 
 
 int main() {
@@ -10,7 +10,13 @@ int main() {
         int x, y, z;
         cin >> x , y, z;
 
-        //do solution here
+        /*
+        use if you want to take in any number of values in one line
+
+        while (cin >> x) {
+            //do something with x
+        }
+        */
 
         cout << x << y << z << endl;
     }
