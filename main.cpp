@@ -9,7 +9,7 @@ int main() {
 
     while (t--) {
         int x, y, z;
-        cin >> x , y, z;
+        cin >> x >> y >> z;
 
         /*
         use if you want to take in any number of values in one line
